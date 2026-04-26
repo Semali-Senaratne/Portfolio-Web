@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="description" content="Portfolio of Semali Senaratne">
+        <meta name="keywords" content="Semali Senaratne, Portfolio,Contact">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+        <title>Contact - Semali Senaratne</title>
+    </head>
+    <body>
+    <!--Navigation bar-->
+   <nav>
+      <a href="index.html" class="logo">Semali Senaratne</a>
+       <ul id="nav-links">
+    
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    <!--Hamburger button-->
+    <div class="menu-button" id="menu-button">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    </nav>
+    <!--CONTACT SECTION-->
+    <section class="contact-section">
+        <div class="contact-left">
+            <h1><span>Get in</span> Touch</h1>
+            <p>I’m always open to discussing new opportunities, collaborations, internships, or creative projects.
+               Feel free to reach out if you’d like to work together or simply connect!</p>
+            <div class="contact-info">
+                <div class="info-item"><i class="fas fa-envelope"></i>semalisenaratne22@gmail.com</div>
+                <div class="info-item"><i class="fas fa-phone"></i>+94 77 758 1722</div>
+                <div class="info-item"><i class="fas fa-location-dot"></i>Colombo, Sri Lanka</div>
+            </div>
+        <div class="social-title">
+            <div class="social-icon">
+                <a href="https://www.linkedin.com/in/semali-senaratne-17437a345/" target="_blank">
+                    <i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/5022218" target="_blank">
+                    <i class="fab fa-github"></i></a>
+                <a href="https://medium.com/@semalisenaratne22" target="_blank">
+                    <i class="fab fa-medium"></i></a>
+                <a href="https://www.instagram.com/se.maliii/" target="_blank">
+                    <i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        </div>
+        <!--Contact form-->
+        <div class="contact-form">
+            <h2>Send Me a Message</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name">
+                <input type="email" id="email" placeholder="Your Email">
+                <input type="text" id="subject" placeholder="Subject">
+                <textarea id="message" placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <p id="success-message">Message sent successfully</p>
+        <p id="error-message"></p>
+
+
+    </section>
+    
+     <script src="script.js" defer></script>
+
+    </body>
+</html>
